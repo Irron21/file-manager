@@ -62,7 +62,7 @@ class NewFileHandler(FileSystemEventHandler):
                     shutil.move(created_file_path, os.path.join(target_dir, new_file_name))
                 else:
                     shutil.move(created_file_path, file_destination)
-                print(f"Moved {os.path.basename(created_file_path)} to: {"\\".join(file_destination.split("\\")[:-1])}")
+                print(f"Moved {os.path.basename(created_file_path)} to: {target_dir}")
                 break
             except PermissionError:
                 retries -= 1
