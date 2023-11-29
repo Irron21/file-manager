@@ -1,4 +1,4 @@
-# File Manager Project
+# File Manager
 
 This Python-based file manager script provides functionality to organize files within a directory automatically. It includes two main features:
 
