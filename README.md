@@ -25,7 +25,7 @@ This Python-based file manager script provides functionality to organize files w
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/file-manager.git
+    git clone https://github.com/Irron21/file-manager.git
     ```
 
 2. **Run the Script:**
